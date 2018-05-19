@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+html,
+body {
+    margin: 0;
+    
+    font-size: 10px;
+    padding: 0;
+
+}
+
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+	font-family: 'Didact Gothic', sans-serif;
+    text-decoration: none;
+    color: #cfe2e3;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+.nav-bar {
+    background-color: #4b7e81;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    padding: 15px;
+
+}
+#logo{
+	width: 70px;
+	padding: 10px 70px 5px 30px;
+}
+ h1{
+ 	font-family: 'Comfortaa', cursive ;
+	color: #000000;
+	font-size: 5rem;
+	padding: 40px 0 0px 10px;
+	margin: 0;	
+}
+p{
+	font-size: 1.7rem;
+	font-family: 'Didact Gothic', sans-serif;
+
+}
+.p-wrapper{
+	background-color:#FFF3CD ;
+	padding: 1px 1px 1px 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+.p-text{
+	background-color: #E9ECEF;
+	padding: 20px 20px 5px 20px;
+	margin: 20px;
+	border-radius: 10px;
+}
+section{
+	margin-top: 70px;
+}
+.p-desc{
+	padding-left: 13px;
+}
+.nav-item:hover{
+	background-color:#5d9ca0;
+	cursor: pointer;
+	transition: 1s;
+}
+table{
+	table-layout: fixed;
+    width: 90%;
+    word-wrap: break-word;
+    font-family: "Arial", sans-serif;
+    font-size: 1.5rem;
+    border-collapse: collapse;
+    margin:auto;
+    margin-bottom: 70px;
+
+   
+}
+tr{
+    border: 2px solid #BDB39F;
+    padding-left: 3px;
+    text-align: left;
+
+}
+
+tr:nth-child(odd) {
+  background: white;
+}
+tr:nth-child(even) {
+  background: #F2F2F2;
+}
+tr:hover{
+	background-color: #e0dbdb;
+	
+}
+.main-table{
+	 border-radius: 20px;
+}
+td:nth-child(odd){
+	padding-right: 30px;
+}	
+td,th{
+	padding: 7px;
+}
+.a-key{
+		text-decoration: none;
+		cursor:pointer;
+		color: #00A3FA;
+}
+footer{
+	height: 80px;
+	background-color:#4b7e81 ;
+}
