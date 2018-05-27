@@ -1,1 +1,1 @@
-# epam-proj test push for Jenkins test#4
+# epam-proj test push for test Jenkins pipeline
