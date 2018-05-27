@@ -9,7 +9,7 @@
 	<div class="spisok" style="">
 		<table class='main-table'>
 			<?php
-			$file=file('src\good.txt');
+			$file=file('src/good.txt');
 
 
 			// Can look $index of array
@@ -21,13 +21,13 @@
 
 
 			$arr_length=count($file);
-			echo ("<th>Private key</th><th>Public key</th>");
+			echo ("<tr><th width='300'>Address</th><th>Public key</th><th>Private key</th><th width='75'>Balance</th><th width='85'>Received</th><th width='50'>TX</th></tr>");
+			// не правильный вывод 
 			for ($i=0; $i < $arr_length;$i++) {
-				$file1=$file[$i];	 
-				$file2=$file[$i+1];
-				echo("<tr><td><a href='#' class='a-key'>$file1</a></td><td>$file2</td></tr>");
-				$i=$i+1;
-			}
+				$tmp_string=explode(" ", $file[$i]);
+				echo ("<tr><td>$tmp_string[0] <a class='a-key' href='https://blockchain.info/address/$tmp_string[0]'>&#128279;</a></td><td><a class='a-key ' href='second.php?tx=$tmp_string[5]&pbkey=$tmp_string[1]&addr=$tmp_string[0]&prkey=$tmp_string[2]&blc=$tmp_string[3]&brec=$tmp_string[4]'>$tmp_string[1]</a></td><td ><a class='private-class' href='#'>$tmp_string[2]</a></td><td class='bit-bal'>&#8383;  $tmp_string[3]</td><td class='bit-bal'>&#8383;  $tmp_string[4]</td><td class='tx-class'>&#128423;  $tmp_string[5]</td></tr>");
+				}
+	
 
 
 
