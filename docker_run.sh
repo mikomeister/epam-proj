@@ -1,10 +1,10 @@
 #!/bin/bash
-if [ "$(docker ps -q -f name='test-conteiner')" ]; then
+if [ "$(docker ps -q -f name='epam-conteiner')" ]; then
 	if [ "$(docker ps -aq -f status=running)" ]; then
-		docker stop test-conteiner;
+		docker stop epam-conteiner;
 	fi
-	docker rm test-conteiner;
-	docker rmi test-images;
+	docker rm epam-conteiner;
+	docker rmi epam-image;
 	echo "container exist";
 	echo "container and image was deleted"
 

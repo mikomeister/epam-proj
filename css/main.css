@@ -176,3 +176,37 @@ h2{
 	margin: 5px;
 	color :#5B4C70;
 }
+.abt-avatar{
+height: 230px;
+padding-bottom: 10px;
+padding-top: 20px;
+}
+.about-section{
+	margin: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 700;
+
+}
+figurcaption p{
+	width: 250px;
+	padding-left: 20px;
+}
+.bio{
+	font-weight: 400;
+	height: 120px;
+}
+figure p{
+	margin: 0;
+}
+p a{
+	vertical-align: top;
+	padding-left: 10px;
+}

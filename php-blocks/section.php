@@ -12,14 +12,6 @@
 			$file=file('src/good.txt');
 
 
-			// Can look $index of array
-			//  foreach($file as $index => $val)
-			// {
-			// 	echo("<tr><td>$val</td></tr>");
-			//  }
-
-
-
 			$arr_length=count($file);
 			echo ("<tr><th width='300'>Address</th><th>Public key</th><th>Private key</th><th width='75'>Balance</th><th width='85'>Received</th><th width='50'>TX</th></tr>");
 			// не правильный вывод 
@@ -27,20 +19,6 @@
 				$tmp_string=explode(" ", $file[$i]);
 				echo ("<tr><td>$tmp_string[0] <a class='a-key' href='https://blockchain.info/address/$tmp_string[0]'>&#128279;</a></td><td><a class='a-key ' href='second.php?tx=$tmp_string[5]&pbkey=$tmp_string[1]&addr=$tmp_string[0]&prkey=$tmp_string[2]&blc=$tmp_string[3]&brec=$tmp_string[4]'>$tmp_string[1]</a></td><td ><a class='private-class' href='#'>$tmp_string[2]</a></td><td class='bit-bal'>&#8383;  $tmp_string[3]</td><td class='bit-bal'>&#8383;  $tmp_string[4]</td><td class='tx-class'>&#128423;  $tmp_string[5]</td></tr>");
 				}
-	
-
-
-
-//Выводит все троки файла в одну строку, не могу вывести 2 строки рядом 
-// $file_handle = fopen("src\good.txt", "r");
-// while (!feof($file_handle)) {
-//    $line = fgets($file_handle);
-//    echo ("<tr><td>$line</td></tr>");
-// }
-// fclose($file_handle);
-
-
-
 			?>
 		</table>
 	</div>
