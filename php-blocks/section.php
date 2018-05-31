@@ -1,6 +1,6 @@
     <section>
 <div class='p-text'>
-     <h1 >Bitcoin Private Keys</h1>
+     <h1 >Graduation project Epam DevOps Spring 2018</h1>
         <p class='p-desc'>Hello everyone! On this site, you can explore all possible Bitcoin private keys and addresses of the Bitcoin network. We list private keys both in compressed and uncompressed WIF format. For each private key we display corresponding Bitcoin address, current balance, received balance and number of transactions. At the top of the list, you can find total balance and total received balance of all private keys/addresses listed on the page</p>
 <div class="p-wrapper"><p>&#x26a0 This site is for educational purposes only! Nobody should use someones else's private key to steal bitcoins! Also it's recommended not to type or paste private keys because they could leak!</p>
 </div></div></section> 	
