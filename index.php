@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="css/main.css">	
+	<title>EPAM Project</title>
 </head>
 <body>
 	<div id="wrapper" class="clearfix" >
